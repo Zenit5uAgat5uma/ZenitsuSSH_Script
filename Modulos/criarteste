@@ -12,7 +12,7 @@ do
 echo "$testeson"
 done
 echo ""
-echo -ne "\033[1;32mUsername\033[1;37m: "; read nome
+echo -ne "\033[1;32mUsername\0j33[1;37m: "; read nome
 if [[ -z $nome ]]
 then
 echo ""
@@ -62,18 +62,18 @@ chmod +x /etc/VPSManager/userteste/$nome.sh
 at -f /etc/VPSManager/userteste/$nome.sh now + $u_temp min > /dev/null 2>&1
 clear
     echo -e "\033[1;32m===================================="
-    echo -e "\033[1;32m   🐉ㅤDRAGON VPS MANAGERㅤ🐉  " 
+    echo -e "\033[1;32m  ✨ ZenitsuSSH Manager ✨ " 
     echo -e "\033[1;32m===================================="
     echo ""
     echo -e "\033[1;31m◈─────⪧ IMPORTANT ⪦──────◈"
     echo ""
-    echo -e "\033[1;32m◈⪧ 🚫 NO SPAM"
-    echo -e "\033[1;32m◈⪧ ⚠️ NO DDOS"
-    echo -e "\033[1;32m◈⪧ 🎭 NO Hacking"
-    echo -e "\033[1;32m◈⪧ ⛔️ NO Carding"
-    echo -e "\033[1;32m◈⪧ 🙅‍♂️ NO Torrent"
-    echo -e "\033[1;32m◈⪧ ❌ NO MultiLogin"
-    echo -e "\033[1;32m◈⪧ 🤷‍♂️ NO Illegal Activities"
+    echo -e "\033[1;32m◈⪧ 💠 NO SPAM"
+    echo -e "\033[1;32m◈⪧ 💠 NO DDOS"
+    echo -e "\033[1;32m◈⪧ 💠 NO Hacking"
+    echo -e "\033[1;32m◈⪧ 💠 NO Carding"
+    echo -e "\033[1;32m◈⪧ 💠 NO Torrent"
+    echo -e "\033[1;32m◈⪧ 💠 NO MultiLogin"
+    echo -e "\033[1;32m◈⪧ 💠 NO Illegal Activities"
     echo ""
     echo -e "\033[1;37m◈─────⪧ TEST SSH ACCOUNT ⪦─────◈"
     echo ""
@@ -96,7 +96,7 @@ clear
     echo -e "\033[1;32mhttp://$IP:8888/server/online"
     echo ""
     echo -e "\033[1;37m◈─────────────────────────────────◈"
-    echo -e "\033[1;37m©️ 🐉  DRAGON VPS MANAGER SCRIPT  🐉"
+    echo -e "\033[1;37m©️ ✨ ZenitsuSSH Manager ✨ "
     echo -e "\033[1;37m◈─────────────────────────────────◈"
     echo ""
     echo -e "\033[1;33mAfter the defined time of the user \033[1;32m$nome"
