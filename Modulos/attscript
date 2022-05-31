@@ -60,9 +60,10 @@ fun_atts () {
 
   [[ -e /home/versao ]] && rm /home/versao
 
-  [[ -e /tmp/att ]] && rm /tmp/att
+  [[ -e /tmp/att ]] && rm /tmp/attraw.githubusercontent.com/Zenit5uAgat5uma/ZenitsuSSH_Script/main/Sistema/versao
 
-	wget -c -P /home https://raw.githubusercontent.com/januda-ui/DRAGON-VPS-MANAGER/main/Sistema/versao
+
+	wget -c -P /home https://raw.githubusercontent.com/Zenit5uAgat5uma/ZenitsuSSH_Script/main/Sistema/versao
 
 	[[ -f "/home/versao" ]] && mv /home/versao /tmp/att
 
@@ -70,7 +71,8 @@ fun_atts () {
 
 } > /dev/null 2>&1
 
-echo -e "ㅤ🐉ㅤDRAGON VPS MANAGERㅤ🐉ㅤ" | figlet
+
+echo -e " ✨ ZenitsuSSH Manager ✨ " | figlet
 
 echo " "
 
@@ -126,7 +128,7 @@ vrs2=$(sed -n '1 p' /tmp/att | sed -e 's/[^0-9]//ig')
 
     sleep 3
 
-    wget https://raw.githubusercontent.com/januda-ui/DRAGON-VPS-MANAGER/main/hehe > /dev/null 2>&1
+    wget https://raw.githubusercontent.com/Zenit5uAgat5uma/ZenitsuSSH_Script/main/hehe > /dev/null 2>&1
 
     chmod +x hehe
 
